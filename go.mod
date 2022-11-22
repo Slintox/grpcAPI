@@ -1,4 +1,4 @@
-module grpcAPI
+module github.com/Slintox/grpcAPI
 
 go 1.19
 
