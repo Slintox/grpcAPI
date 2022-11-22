@@ -4,7 +4,7 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/Slintox/grpcAPI/api"
-	"github.com/Slintox/grpcAPI/internal/contract"
+	"github.com/Slintox/grpcAPI/pkg/contract"
 )
 
 type GrpcServer struct {

@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 
 	pb "github.com/Slintox/grpcAPI/api"
-	"github.com/Slintox/grpcAPI/internal/models"
+	"github.com/Slintox/grpcAPI/pkg/models"
 )
 
 type CalculatorClient struct {
