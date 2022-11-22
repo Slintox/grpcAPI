@@ -1,0 +1,17 @@
+syntax = "proto3";
+package api;
+
+option go_package = "/api";
+
+service Calculator {
+  rpc Add (CalculatorRequest) returns (CalculatorResponse) {}
+}
+
+message CalculatorRequest {
+  string parameter1 = 1;
+  string parameter2 = 2;
+}
+
+message CalculatorResponse {
+  string result = 1;
+}
