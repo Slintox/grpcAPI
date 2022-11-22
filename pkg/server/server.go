@@ -2,8 +2,9 @@ package server
 
 import (
 	"google.golang.org/grpc"
-	"grpcAPI/api"
-	"grpcAPI/internal/contract"
+
+	"github.com/Slintox/grpcAPI/api"
+	"github.com/Slintox/grpcAPI/internal/contract"
 )
 
 type GrpcServer struct {

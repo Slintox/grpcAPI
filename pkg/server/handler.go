@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"grpcAPI/api"
-	"grpcAPI/internal/contract"
-	"grpcAPI/internal/models"
+	"github.com/Slintox/grpcAPI/api"
+	"github.com/Slintox/grpcAPI/internal/contract"
+	"github.com/Slintox/grpcAPI/internal/models"
 )
 
 type GrpcHandler struct {
